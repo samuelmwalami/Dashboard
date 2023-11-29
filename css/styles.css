@@ -289,12 +289,13 @@ table tbody td{
 table tbody td button{
     border: none;
     background: var(--second-bgcolor);
-    color: #0f0;
+    color: green;
 }
 
 table tbody td button:hover{
     cursor: pointer;
-    transform: scale(1.3);
+    transform: scale(1.2);
+    transition: all 0.4s ease-in-out;
 }
 
 table tbody tr:nth-child(even),tr:nth-child(even) td button{
